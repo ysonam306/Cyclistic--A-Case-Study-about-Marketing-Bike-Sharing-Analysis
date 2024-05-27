@@ -252,7 +252,7 @@ In this step of Data Analysis Process, we will try to derive key insights that w
 
 SQL Query: [Data Analysis](https://github.com/ysonam306/Cyclistic--A-Case-Study-about-Marketing-Bike-Sharing-Analysis/blob/main/04_Data_Analysis.Sql)
 
-Data Visualization: [Tableau]()
+Data Visualization: [Tableau](https://public.tableau.com/views/CyclisticBikeShare2023/BikeTypesUsedin2023?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 For the analysis of data, i queried multiple relevant tables and then visualize them in tableau.
 The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?
