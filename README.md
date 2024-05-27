@@ -156,7 +156,7 @@ In this step, we will transform the data to streamline the analyze phase of the 
 
 #### Data Combination
 
-SQL Query: Data Combining
+SQL Query: [Data Combining](https://github.com/ysonam306/Cyclistic--A-Case-Study-about-Marketing-Bike-Sharing-Analysis/blob/main/01_Data_Combining.Sql)
 
 We have to make sure our data is stored appropriately and prepared for analysis. For this, we have downloaded all 12  zip files and unzipping them, then create a folder on desktop, and also created a subfolder of .CSV files so that we have a copy of original data.
 
@@ -165,7 +165,7 @@ For processing data in BigQuery, some files were uploaded from our desktop folde
 
 #### Data Exploration
 
-SQL Query: Data Exploration
+SQL Query: [Data Exploration](https://github.com/ysonam306/Cyclistic--A-Case-Study-about-Marketing-Bike-Sharing-Analysis/blob/main/02_Data_Exploration.Sql)
 
 Before data cleaning, we need to familiarize ourselves with the data to find inconsistencies. So, in this we will check the data type, number of null values  and duplicate rows in all columns. 
 
@@ -200,7 +200,7 @@ There are no duplicate rows in data. <br/><br/>
 
 
 #### Data Cleaning
-SQL Query: Data Cleaning
+SQL Query: [Data Cleaning](https://github.com/ysonam306/Cyclistic--A-Case-Study-about-Marketing-Bike-Sharing-Analysis/blob/main/03_Data_Cleaning.Sql)
 1. All the rows having null values are deleted.
 2. Three new columns ride_length for total trip duration, day_of_week and month are added.
 3. The trips which had duration longer than a day and less than a minute are excluded.
@@ -250,9 +250,9 @@ The documentation is done at every step via comments in BigQuery. 12 months data
 
 In this step of Data Analysis Process, we will try to derive key insights that we have gathered from cleaned data and then will use visualization techniques to get a better understanding of the story that data is trying to tell.
 
-SQL Query: Data Analysis
+SQL Query: [Data Analysis](https://github.com/ysonam306/Cyclistic--A-Case-Study-about-Marketing-Bike-Sharing-Analysis/blob/main/04_Data_Analysis.Sql)
 
-Data Visualization: Tableau
+Data Visualization: [Tableau]()
 
 For the analysis of data, i queried multiple relevant tables and then visualize them in tableau.
 The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?
